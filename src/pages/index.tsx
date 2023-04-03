@@ -23,12 +23,12 @@ export default function Home() {
         <div>
           <ul>
             <li onClick={() => handleLocaleChange('pt')}>
-              português
+              {t('home.mainLanguage')}
             </li>
 
 
             <li onClick={() => handleLocaleChange('en')}>
-              inglês
+              {t('home.secondLanguage')}
             </li>
           </ul>
         </div>

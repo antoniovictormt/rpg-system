@@ -1,5 +1,7 @@
 {
 	"home": {
-		"title": "Olá mundo"
+		"title": "Olá mundo",
+		"mainLanguage": "Português",
+		"secondLanguage": "Inglês"
 	}	
 }
