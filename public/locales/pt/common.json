@@ -1,7 +1,13 @@
 {
 	"home": {
-		"title": "Olá mundo",
+		"title": "Olá Mundo",
 		"mainLanguage": "Português",
-		"secondLanguage": "Inglês"
+		"secondLanguage": "Inglês",
+		"login": "Entrar"
+	},
+	"login": {
+		"username": "Usuário",
+		"password": "Senha",
+		"submit": "Entrar"
 	}	
 }

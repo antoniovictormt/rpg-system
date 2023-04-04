@@ -1,0 +1,35 @@
+.login__main {
+	@apply flex justify-center items-center min-h-screen
+}
+
+.login__left {
+	@apply hidden xl:flex xl:justify-center xl:items-center xl:w-full xl:h-screen xl:bg-slate-400
+}
+
+.login__right {
+	@apply flex justify-center items-center max-w-[500px] w-full h-screen bg-cyan-200
+}
+
+.login__container {
+	@apply flex justify-center items-center w-full p-4 flex-col
+}
+
+.login__image {
+	@apply flex gap-8 xl:hidden
+}
+
+.login__form {
+	@apply flex flex-col gap-4 w-full xl:w-3/4
+}
+
+.login__inputContainer {
+	@apply relative border-2 border-gray-400 focus-within:border-blue-500 rounded-lg
+}
+
+.login__label {
+	@apply cursor-auto absolute top-0 text-lg bg-cyan-200 py-2 px-3 duration-300 text-gray-400 rounded-lg focus:text-blue-500
+}
+
+.login__button {
+	@apply bg-green-400 p-2 rounded-lg text-white text-xl
+}
