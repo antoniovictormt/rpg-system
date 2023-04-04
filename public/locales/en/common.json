@@ -2,6 +2,12 @@
 	"home": {
 		"title": "Hello World",
 		"mainLanguage": "Portuguese",
-		"secondLanguage": "English"
+		"secondLanguage": "English",
+		"login": "Login"
+	},
+	"login": {
+		"username": "Username",
+		"password": "Password",
+		"submit": "Sign"
 	}	
 }

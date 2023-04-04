@@ -1,7 +1,3 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
 .out input:focus-within ~ label,
 .out input:not(:placeholder-shown) ~ label {
   @apply transform scale-75 -translate-y-6 text-blue-500;
